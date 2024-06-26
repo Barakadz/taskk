@@ -79,7 +79,7 @@ export default function Login() {
     //dispatch(setUser(values));
     const username = values.email;
     const password = values.password;
-    const url = 'https://api.ldap.groupe-hasnaoui.com/task/auth';
+    const url = 'https://api.ldap.groupe-hasnaoui.com/newtask/auth';
   
     // Créez l'en-tête d'authentification de base
     const authHeader = 'Basic ' + btoa(`${username}:${password}`);

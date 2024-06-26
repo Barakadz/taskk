@@ -72,7 +72,7 @@ const Side = () => {
 
 
       const authHeader = 'Basic ' + btoa(`${mail}:${password}`);
-      const url = 'https://api.ldap.groupe-hasnaoui.com/task/auth';
+      const url = 'https://api.ldap.groupe-hasnaoui.com/newtask/auth';
 
       const authenticate = async () => {
         try {
